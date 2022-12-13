@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["python3", "main.py", "-p1", "human", "-p2", "minimaxAI", "-limit_players", "2"],
+            "console": "integratedTerminal",
+        }
+    ]
+}
